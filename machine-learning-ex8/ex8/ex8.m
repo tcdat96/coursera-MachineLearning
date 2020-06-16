@@ -61,7 +61,7 @@ fprintf('Visualizing Gaussian fit.\n\n');
 p = multivariateGaussian(X, mu, sigma2);
 
 %  Visualize the fit
-%visualizeFit(X,  mu, sigma2);
+visualizeFit(X,  mu, sigma2);
 xlabel('Latency (ms)');
 ylabel('Throughput (mb/s)');
 
